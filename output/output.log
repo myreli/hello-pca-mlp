@@ -1,0 +1,41 @@
+
+reading MNIST dataset from tensorflow sample...
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+
+ploting random MNIST sample to prove that dataset loaded properly and understand data...
+
+applying PCA 1 to dataset...
+
+applying PCA 2 to dataset...
+
+apply MLPs and display accuracy to each...
+
+------------------------------------------------
+
+---
+[RES] Full: 
+
+[RES] MLP 1: 93.10%
+[RES] MLP 2: 87.84%
+[RES] MLP 3: 10.09%
+
+---
+[RES] PCA 1: 
+
+[RES] MLP 1: 93.25%
+[RES] MLP 2: 99.68%
+[RES] MLP 3: 92.83%
+
+---
+[RES] PCA 2: 
+
+[RES] MLP 1: 93.01%
+[RES] MLP 2: 19.13%
+[RES] MLP 3: 9.82%
+
+------------------------------------------------
+
+Execution time:  81.14863263649603
